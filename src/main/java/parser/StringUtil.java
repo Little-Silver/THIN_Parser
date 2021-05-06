@@ -42,4 +42,8 @@ public class StringUtil {
         return s.contains("End");
     }
 
+    public static String xToLowerCase(String s){
+        return s.replaceAll("X", "x");
+    }
+
 }

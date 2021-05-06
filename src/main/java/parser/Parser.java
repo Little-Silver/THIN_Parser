@@ -28,6 +28,7 @@ public class Parser {
                 }
             }
             if (!isStartingLine) {
+                replaced = StringUtil.xToLowerCase(replaced);
                 replaced = StringUtil.replaceDo(replaced);
                 replaced = StringUtil.replaceWhile(replaced);
                 replaced = StringUtil.replaceEnd(replaced);
