@@ -12,6 +12,7 @@ Diese Anwendung dient dazu Loop und While-Programme so anzupassen, dass sie mitt
 - Semikolons werden korrekt gesetzt
 - While, Loop, End und Do werden korrekt geschrieben ([A-Z][a-z]*)
 - Variablen (x1, x2, x...) werden klein geschrieben
+- Leerzeilen oder Kommmentare am Anfang des Files werden entfernt
 
 ### Verbesserungen und Fehler
 
