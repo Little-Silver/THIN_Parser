@@ -1,0 +1,10 @@
+Loop 1 Do
+ x3 = x1 + 0;
+ Loop x2 Do
+ x3 = x3 - 1
+ End;
+ x0 = x1 + 0
+End;
+Loop x3 Do
+ x0 = x2 + 0
+End
