@@ -6,7 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class Main {
-    private static final String INPUT_FILE = "src/main/resources/test.txt";
+    private static final String INPUT_FILE = "src/main/resources/input.txt";
     private static final String OUTPUT_FILE = "src/main/resources/output.txt";
 
     public static void main(String[] args) throws IOException {
