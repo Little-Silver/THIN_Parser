@@ -34,7 +34,6 @@ public class Parser {
                 replaced = StringUtil.replaceEnd(replaced);
                 replaced = StringUtil.replaceLoop(replaced);
                 replaced = replaced.stripTrailing();
-                replaced = StringUtil.removeDuplicateSpaces(replaced);
                 newLineList.add(replaced);
             }
 
