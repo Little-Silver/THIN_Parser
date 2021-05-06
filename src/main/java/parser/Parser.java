@@ -3,18 +3,21 @@ package parser;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author Pascal Isliker
+ */
 public class Parser {
 
     List<String> lineList = new ArrayList<>();
 
     public Parser(List<String> lineList) {
         this.lineList = lineList;
-        this.lineList = execute();
+        this.lineList = adjustLowerAndUpperCase();
         this.lineList = adjustSemiColons();
         printList();
     }
 
-    private List<String> execute() {
+    private List<String> adjustLowerAndUpperCase() {
 
         List<String> newLineList = new ArrayList<>();
         boolean isStartingLine = true;

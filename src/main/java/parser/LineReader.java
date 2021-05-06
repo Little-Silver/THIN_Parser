@@ -10,7 +10,9 @@ import java.util.List;
 
 
 /**
- * Reads every line in a file with moves for the car acceleration.
+ * Reads every line in a file.
+ *
+ * @author Pascal Isliker
  */
 public class LineReader {
 
@@ -23,7 +25,7 @@ public class LineReader {
      *
      * @param file to read from
      * @return the file content line by line
-     * @throws IOException if there is an error reading the file
+     * @throws FileNotFoundException if there is an error reading the file
      */
     public static List<String> readFile(File file) throws FileNotFoundException {
         try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
